@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo Calculator</title>
+    <link rel="icon" href="./image/logo.png" style="border-radius: 50px;">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav class="header-part">
+            <div class="nav-header-part-first">
+                <ul>
+                    <li><a href="./index.html"><img src="./image/logo.png" alt=""></a></li>
+                    <li><a href="./index.html"><p>Modulo Calculator</p></a></li>
+                </ul>
+            </div>
+            <div class="nav-header-part-second">
+                <ul>
+                    <li><a href="#theory">Content</a></li>
+                    <li><a href="#cal">Main Calculator</a></li>
+                </ul>   
+            </div>
+        </nav>
+    </header>
+    <div class="body">
+        <div class="maim-body" id="cal">
+            <div class="first">
+                <div class="input">
+                    <h1 class="head">Modulo Calculator</h1>
+                    <h2 class="mod-dem"><i>a</i> mod <i>b</i> = ?</h2>
+                    <label for="number"><i>a</i> value : </label>
+                    <input type="number" name="" id="a" placeholder="enter number"><br>
+                    <label for="number"><i>b</i> value : </label>
+                    <input type="number" name="" id="b" placeholder="enter number">
+                    <div class="btn">
+                        <a href="./index.html"><button class="clear" id="clear">Clear</button></a>
+                        <button class="answer" id="answer">Answer</button>
+                    </div>
+                </div>
+                <div class="answer-part">
+                    <h1 class="ans-head">Answer</h1>
+                    <p class="ans-para"><span class="a" id="a-val">a</span> mod <span class="b" id="b-val">b</span> = <span class="ans" id="mod-val">_</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="theroy">
+            <div class="one">
+                <h2 id="theory">MODULO</h2>
+                <p>
+                    Calculate a mod b which, for positive numbers, is the remainder of a divided by b in a division problem. The modulo operation finds the remainder, so if you were dividing a by b and there was a remainder of n, you would say a mod b = n.    
+                </p>
+                <p>
+                    The modulo operation finds the remainder when the dividend ‘a’ is divided by the divisor ‘b’.
+                </p>
+                <p>
+                    Mathematically, it is represented as: (a \mod b = r), where ‘r’ is the remainder.
+                </p>
+            </div>
+            <div class="two">
+                <h2>How to Do a Modulo Calculation</h2>
+                <p>
+                    The modulo operation finds the remainder of a divided by b. To do this by hand just divide two numbers and note the remainder. If you needed to find 27 mod 6, divide 27 by 6.
+                </p>
+                <ul type="disc">
+                    <li>27 mod 6 = ?</li>
+                    <li>27 ÷ 6 = 4 with a remainder of 3</li>
+                    <li>27 mod 6 = 3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="second-body">
+        <div class="main-theory">
+            <h2>Example Calculations</h2>
+            <ul>
+                <li>1 . 10 mod 3
+                    <ul>
+                        <li>
+                            <p>
+                                10÷3=3 (quotient), remainder
+                            </p>
+                            <p>
+                                Result: 10 % 3 = 1
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>2 . 25 mod 7
+                    <ul>
+                        <li>
+                            <p>
+                                25÷7=3, remainder 4
+                            </p>
+                            <p>
+                                Result: 25 % 7 = 4
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>3 . 18 mod 6
+                    <ul>
+                        <li>
+                            <p>
+                                18÷6=3, remainder 0
+                            </p>
+                            <p>
+                                Result: 18 % 6 = 0
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="image">
+            <img src="./image/image.png" alt="">
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-first-con">
+            <ul>
+                <li class="list"><a href="mailto:karthicksananbu607@gmail.com" class="link"><img src="./image/email.jpeg" alt=""></a></li>
+                <li class="list"><a href="https://www.facebook.com/profile.php?id=100059117050810" class="link"><img src="./image/facebook.jpeg" alt=""></a></li>
+                <li class="list"><a href="https://www.instagram.com/kar_thi_ck_43/" class="link"><img src="./image/instagram.jpeg" alt=""></a></li>
+                <li class="list"><a href="https://www.linkedin.com/in/karthick607/" class="link"><img src="./image/linkedin.jpeg" alt=""></a></li>
+                <li class="list"><a href="https://x.com/KarthickA155845" class="link"><img src="./image/twitter.jpeg" alt=""></a></li>
+                <li class="list"><a href="https://www.google.com/maps/place/12%C2%B013'24.8%22N+78%C2%B005'01.7%22E/@12.223565,78.0812354,17z/data=!3m1!4b1!4m7!1m2!10m1!1e2!3m3!8m2!3d12.223565!4d78.0838157?authuser=1&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D" class="link"><img src="./image/location.jpeg" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="main-footer">
+           <a href=""><p> &#169 Copyright 2025. Powered by Karthick Developer </p></a>  
+        </div>
+    <script src="./app.js"></script>
+</body>
+</html>
